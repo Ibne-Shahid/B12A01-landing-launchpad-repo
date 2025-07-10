@@ -17,6 +17,10 @@ a{
     color: white;
 }
 
+li{
+    list-style: none;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -251,4 +255,25 @@ img {
 .submit-btn{
     padding: 20px ;
     width: 100%;
+}
+
+/* Footer styles */
+
+.footer{
+    background-color: white;
+}
+
+.footer-heading{
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.footer-container{
+    padding: 100px 400px;
+}
+
+.footer-end-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
