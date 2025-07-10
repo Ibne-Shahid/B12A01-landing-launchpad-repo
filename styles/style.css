@@ -58,6 +58,15 @@ img {
     color: rgba(0, 0, 0, 0.5);
 }
 
+.para-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.para-style-3{
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .numbers-heading {
     font-size: 80px;
     font-weight: 700;
@@ -169,4 +178,22 @@ img {
     display: flex;
     gap: 5px;
     margin-top: 30px;
+}
+
+/* Focus styles */
+
+.focus-heading{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.focus-content{
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    text-align: center;
+    padding: 70px 150px;
+}
+
+.focus-content>*{
+    margin: 15px 0;
 }
