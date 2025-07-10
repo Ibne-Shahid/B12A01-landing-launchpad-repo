@@ -100,7 +100,7 @@ img {
     font-weight: 400;
     width: 90%;
     padding: 20px 32px;
-    border: none;
+    border: 1px solid rgba(138, 137, 137, 0.30);
     border-radius: 10px;
 }
 
