@@ -1,0 +1,127 @@
+/* Overall body style */
+
+*{
+    margin: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+}
+
+/* Shared styles */
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section{
+    margin-bottom: 110px;
+}
+
+.btn {
+    padding: 12px 36px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(78, 71, 255);
+}
+
+.txt-purple-color {
+    color: rgb(78, 71, 255);
+}
+
+.heading-color{
+    color: rgb(37, 36, 50);
+}
+
+.sub-heading-1{
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(37, 36, 50);
+}
+
+img{
+    border-radius: 48px;
+}
+
+.center-alignment{
+    text-align: center;
+}
+
+.para-style-2{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.numbers-heading{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+/* Hero styles */
+
+.bg-img {
+    background-image: url('../Assets/Hero-bg.png');
+    padding: 50px 0;
+}
+
+.nav-logo {
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    padding: 150px 115px;
+}
+
+.content .content-h1{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+/* Action styles */
+
+.para-style-1{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+.action-container-content{
+    display: flex;
+    gap: 220px;
+}
+
+.action-content{
+    padding: 62px 0;
+}
+
+.action-content>*{
+    margin-bottom: 23px;
+}
+
+/* Productive user styles */
+
+.bg-color{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 25px;
+    padding: 50px 80px;
+}
+
+.numbers{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
