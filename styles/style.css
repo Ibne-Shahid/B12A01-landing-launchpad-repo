@@ -12,6 +12,11 @@ body {
 
 /* Shared styles */
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -74,6 +79,20 @@ img {
 
 .inter-font {
     font-family: "Inter", sans-serif;
+}
+
+.message-font-style{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    width: 90%;
+    padding: 20px 32px;
+    border: none;
+    border-radius: 10px;
 }
 
 /* Hero styles */
@@ -196,4 +215,35 @@ img {
 
 .focus-content>*{
     margin: 15px 0;
+}
+
+/* Newsletter styles */
+
+.newsletter-title{
+    font-size: 95px;
+    font-weight: 700;
+    width: 50%;
+    padding: 100px 0;
+}
+
+.message-option{
+    width: 50%;
+}
+
+.message-option>*{
+    margin-top: 15px;
+}
+
+.textarea{
+    padding: 40px 20px;
+}
+
+.newsletter-content{
+    display: flex;
+    gap: 115px;
+}
+
+.submit-btn{
+    padding: 20px ;
+    width: 100%;
 }
