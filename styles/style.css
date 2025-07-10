@@ -35,6 +35,11 @@ section {
     background-color: rgb(78, 71, 255);
 }
 
+.btn:hover{
+    background-color: aqua;
+    transition-duration: 0.3s;
+}
+
 .txt-purple-color {
     color: rgb(78, 71, 255);
 }
