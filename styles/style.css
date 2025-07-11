@@ -188,6 +188,12 @@ img {
     color: rgb(117, 117, 117);
 }
 
+.reviewer-para-2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+
 .reviews {
     display: flex;
     gap: 20px;
